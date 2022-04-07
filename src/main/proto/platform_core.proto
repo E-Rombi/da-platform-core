@@ -10,6 +10,7 @@ service PlanApi {
 message FindAllPlanRequest {
   int32 page = 1;
   int32 itemsPerPage = 2;
+  string cid = 3;
 }
 
 message FindAllPlanResponse {

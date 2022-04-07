@@ -1,6 +1,6 @@
 package br.com.deliveryapp.daplatformcore.plan.shared.adapter.out.web
 
-import br.com.deliveryapp.daplatformcore.plan.findAll.model.FindAllPlanDto
+import br.com.deliveryapp.daplatformcore.plan.findall.model.FindAllPlanDto
 import br.com.deliveryapp.daplatformcore.plan.shared.model.exception.FindAllPlanInvalidArgumentException
 import com.google.protobuf.Any
 import com.google.rpc.BadRequest
