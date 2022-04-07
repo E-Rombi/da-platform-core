@@ -1,8 +1,7 @@
-package br.com.deliveryapp.daplatformcore.plan.findAll.application.port.`in`
+package br.com.deliveryapp.daplatformcore.plan.findall.application.port.`in`
 
 import grpc.br.com.deliveryapp.FindAllPlanRequest
 import grpc.br.com.deliveryapp.FindAllPlanResponse
-import org.springframework.data.domain.Pageable
 
 interface FindAllPlanUseCase {
 

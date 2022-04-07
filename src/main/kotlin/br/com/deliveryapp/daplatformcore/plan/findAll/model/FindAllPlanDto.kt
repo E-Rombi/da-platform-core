@@ -1,4 +1,4 @@
-package br.com.deliveryapp.daplatformcore.plan.findAll.model
+package br.com.deliveryapp.daplatformcore.plan.findall.model
 
 import javax.validation.constraints.Positive
 import javax.validation.constraints.PositiveOrZero

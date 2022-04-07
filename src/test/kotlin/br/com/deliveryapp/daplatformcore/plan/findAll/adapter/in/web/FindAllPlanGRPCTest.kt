@@ -1,9 +1,9 @@
-package br.com.deliveryapp.daplatformcore.plan.findAll.adapter.`in`.web
+package br.com.deliveryapp.daplatformcore.plan.findall.adapter.`in`.web
 
-import br.com.deliveryapp.daplatformcore.plan.findAll.application.port.`in`.FindAllPlanUseCase
-import br.com.deliveryapp.daplatformcore.plan.findAll.application.port.out.FindAllPlanPort
-import br.com.deliveryapp.daplatformcore.plan.findAll.application.service.FindAllPlanService
-import br.com.deliveryapp.daplatformcore.plan.findAll.model.FindAllPlanDto
+import br.com.deliveryapp.daplatformcore.plan.findall.application.port.`in`.FindAllPlanUseCase
+import br.com.deliveryapp.daplatformcore.plan.findall.application.port.out.FindAllPlanPort
+import br.com.deliveryapp.daplatformcore.plan.findall.application.service.FindAllPlanService
+import br.com.deliveryapp.daplatformcore.plan.findall.model.FindAllPlanDto
 import br.com.deliveryapp.daplatformcore.plan.shared.model.Plan
 import grpc.br.com.deliveryapp.FindAllPlanRequest
 import grpc.br.com.deliveryapp.FindAllPlanResponse
@@ -13,8 +13,7 @@ import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.extension.ExtendWith
 import org.mockito.Mock
-import org.mockito.Mockito
-import org.mockito.Mockito.*
+import org.mockito.Mockito.`when`
 import org.mockito.junit.jupiter.MockitoExtension
 import org.springframework.data.domain.Page
 import org.springframework.data.domain.PageImpl

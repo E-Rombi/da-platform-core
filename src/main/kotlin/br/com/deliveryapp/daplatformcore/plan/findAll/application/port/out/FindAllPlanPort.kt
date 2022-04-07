@@ -1,4 +1,4 @@
-package br.com.deliveryapp.daplatformcore.plan.findAll.application.port.out
+package br.com.deliveryapp.daplatformcore.plan.findall.application.port.out
 
 import br.com.deliveryapp.daplatformcore.plan.shared.model.Plan
 import org.springframework.data.domain.Page
