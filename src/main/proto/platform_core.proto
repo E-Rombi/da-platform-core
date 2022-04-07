@@ -14,7 +14,9 @@ message FindAllPlanRequest {
 }
 
 message FindAllPlanResponse {
-  repeated PlanResponse plans = 1;
+  int32 page = 1;
+  int32 itemsPerPage = 2;
+  repeated PlanResponse plans = 3;
 }
 
 message PlanResponse {
