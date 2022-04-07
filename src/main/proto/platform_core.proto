@@ -1,0 +1,23 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "grpc.br.com.deliveryapp";
+option java_outer_classname = "PlatformCoreProto";
+
+service PlanApi {
+  rpc findAllPlan(FindAllPlanRequest) returns (FindAllPlanResponse) {}
+}
+
+message FindAllPlanRequest {
+  int32 page = 1;
+  int32 itemsPerPage = 2;
+}
+
+message FindAllPlanResponse {
+  repeated PlanResponse plans = 1;
+}
+
+message PlanResponse {
+  int64 id = 1;
+  string name = 2;
+  double price = 3;
+}
